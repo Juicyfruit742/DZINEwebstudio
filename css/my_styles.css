@@ -1,0 +1,71 @@
+.jumbotron img{
+    width: 100%;
+
+    }
+
+.jumbotron {
+    padding:0 0 !important;
+}
+
+
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+
+
+
+
+
+
+@media (min-width: 320px){
+    header {
+        height: 520px;
+        margin-top: 160px;
+    }
+}
+
+
+
+
+
+@media (min-width: 400px) {
+    header {
+        height: 736px;
+        margin-top: 110px;
+        margin-bottom: -105px;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px){
+    
+    header {
+        height: 580px;
+        margin-top: 55px;
+        margin-bottom: 0;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 690px;
+        margin-top: -55px;
+        margin-bottom: 0;
+        
+    }
+}
